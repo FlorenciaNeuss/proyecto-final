@@ -1,0 +1,36 @@
+@media screen and (max-width: 1800px) {
+  .nav2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .nav1 {
+    display: none;
+  }
+  .nav2 {
+    display: list-item;
+  }
+  .cont {
+    width: 80%;
+  }
+  .mainContacto {
+    padding-bottom: 20%;
+  }
+  .form {
+    width: 60%;
+  }
+  .agen {
+    margin-bottom: 100%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .form {
+    width: 80%;
+  }
+}
+.agen {
+  width: 80%;
+}

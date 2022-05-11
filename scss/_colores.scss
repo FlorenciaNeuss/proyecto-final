@@ -1,0 +1,18 @@
+$fondo: (
+  footer: #b099a8,
+  table: rgba(194, 154, 172, 0.719),
+  form: #b3a4ad,
+);
+@each $item, $color in $fondo {
+  .item-#{$item} {
+    background-color: $color;
+  }
+}
+footer {
+  color: rgb(11, 10, 11);
+}
+.agen{
+  background-color: #b3a4ad;
+  width: 60%;
+  padding: 5%;
+}

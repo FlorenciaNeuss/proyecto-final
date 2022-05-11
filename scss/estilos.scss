@@ -1,0 +1,69 @@
+@import "variables";
+@import "colores";
+@import "estructura";
+@import "responsive";
+@mixin sizes($size, $font) {
+  font-family: $font;
+  font-size: $size;
+}
+@import "tipografia";
+
+header {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg);
+  .logo {
+    width: 15%;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 15px;
+      @include sizes(17px, $fuenteNav);
+      .nav-link {
+        text-decoration: none;
+        color: rgb(199, 158, 177);
+        &:hover {
+          color: rgb(233, 147, 207);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.main1 {
+  margin-bottom: 5%;
+  color: $fuenteColor;
+  background-color: rgb(218, 200, 209);
+  padding: 50px;
+  .h3I {
+    text-align: center;
+    margin-top: 5%;
+    background-color: #b099a8;
+    padding: 5px;
+    color: rgb(12, 12, 12);
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .pI {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.mainContacto {
+  margin-bottom: 10%;
+}
+
+button {
+  color: #b099a8;
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* pagina inicio */
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_dFx_LfgrcmhceZ8VxNtGjHOvBaD43le5Q&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .img {
+    transition: all 1s;
+    background-color: rgb(218, 185, 197);
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+/* nosotros */
+.nos {
+  p{
+    text-align: center;
+  }
+  .imgNos {
+    width: 35%;
+    transition: all 3s;
+  }
+  .imgNos:hover {
+    transform: scale(1.2);
+  }
+}
+/* pagina contacto */
+.form {
+  width: 40%;
+}
+
